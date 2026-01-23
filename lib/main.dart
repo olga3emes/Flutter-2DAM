@@ -30,3 +30,11 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
+// Explicación del código
+// ●	main() → función principal que lanza la app con runApp().
+// ●	MyApp → widget raíz que define el diseño global.
+// ●	MaterialApp → proporciona navegación, temas, rutas, etc.
+// ●	Scaffold → estructura visual estándar con AppBar, Body, Drawer, etc.
+// ●	HomePage → pantalla principal.
+
