@@ -14,7 +14,8 @@ import 'package:flutter/material.dart';
 // import 'package:prueba/screens/pantalla_flexible.dart';
 // import 'package:prueba/screens/pantalla_comparaFlexible&Expanded.dart';
 // import 'package:prueba/screens/pantalla_switcher.dart';
-import 'package:prueba/screens/pantalla_floatingActionButton.dart';
+// import 'package:prueba/screens/pantalla_floatingActionButton.dart';
+import 'package:prueba/screens/pantalla_selectables.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,8 +28,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Ejemplo Floating Action Button',
-      home: PantallaFAB(),
+      title: 'Ejemplo Controles Seleccionables',
+      home: PantallaControlesSeleccion(),
     );
   }
 
