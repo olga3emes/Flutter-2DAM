@@ -12,7 +12,8 @@ import 'package:flutter/material.dart';
 // import 'package:prueba/screens/pantalla_stacks.dart';
 // import 'package:prueba/screens/pantalla_expanded.dart';
 // import 'package:prueba/screens/pantalla_flexible.dart';
-import 'package:prueba/screens/pantalla_comparaFlexible&Expanded.dart';
+// import 'package:prueba/screens/pantalla_comparaFlexible&Expanded.dart';
+import 'package:prueba/screens/pantalla_switcher.dart';
 
 
 void main() {
@@ -26,8 +27,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Ejemplo Comparativa Expanded vs Flexible',
-      home: PantallaExpandedFlexible(),
+      title: 'Ejemplo AnimatedSwitcher',
+      home: PantallaAnimatedSwitcher(),
     );
   }
 
