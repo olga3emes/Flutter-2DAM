@@ -7,7 +7,8 @@ import 'package:flutter/material.dart';
 // import 'package:prueba/screens/pantalla_row.dart';
 // import 'package:prueba/screens/pantalla_containerImage.dart';
 // import 'package:prueba/screens/pantalla_containerImage.dart';
-import 'package:prueba/screens/pantalla_elevatedButton.dart';
+// import 'package:prueba/screens/pantalla_elevatedButton.dart';
+import 'package:prueba/screens/pantalla_listView.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,8 +21,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Ejemplo ElevatedButton',
-      home: PantallaContainerButton(),
+      title: 'Ejemplo ListView',
+      home: PantallaCuatroListas(),
     );
   }
 
