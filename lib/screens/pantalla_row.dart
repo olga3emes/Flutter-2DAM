@@ -14,7 +14,7 @@ class PantallaRow extends StatelessWidget {
         Expanded(
           child: Text('Craft beautiful UIs', textAlign: TextAlign.center),
         ),
-        Expanded(child: FlutterLogo()),
+        Expanded(child: FittedBox(child: FlutterLogo())),
       ],
     );
   }
