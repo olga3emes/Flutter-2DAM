@@ -10,7 +10,10 @@ import 'package:flutter/material.dart';
 // import 'package:prueba/screens/pantalla_elevatedButton.dart';
 // import 'package:prueba/screens/pantalla_listView.dart';
 // import 'package:prueba/screens/pantalla_stacks.dart';
-import 'package:prueba/screens/pantalla_expanded.dart';
+// import 'package:prueba/screens/pantalla_expanded.dart';
+// import 'package:prueba/screens/pantalla_flexible.dart';
+import 'package:prueba/screens/pantalla_comparaFlexible&Expanded.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -23,8 +26,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Ejemplo Expanded',
-      home: PantallaExpanded(),
+      title: 'Ejemplo Comparativa Expanded vs Flexible',
+      home: PantallaExpandedFlexible(),
     );
   }
 
