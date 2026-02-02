@@ -48,6 +48,7 @@ class _PantallaFABState extends State<PantallaFAB> {
                   duration: const Duration(milliseconds: 300),
                   child: FloatingActionButton(
                     key: ValueKey(cambiarIcono),
+                    shape: const CircleBorder(),
                     backgroundColor: Colors.orange,
                     onPressed: () {
                       setState(() => cambiarIcono = !cambiarIcono);
@@ -203,6 +204,7 @@ class _PantallaFABState extends State<PantallaFAB> {
                 floatingActionButton: FloatingActionButton(
                   onPressed: () {},
                   backgroundColor: const Color.fromARGB(255, 101, 101, 101),
+                  shape: const CircleBorder(),
                   child: const Icon(Icons.add, color: Colors.white,),
                 ),
                 bottomNavigationBar: BottomAppBar(
