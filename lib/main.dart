@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 //myWidgets
 // import 'package:prueba/screens/pantalla_richtext.dart';
-import 'package:prueba/screens/pantalla_column.dart';
+import 'package:prueba/screens/pantalla_container.dart';
+// import 'package:prueba/screens/pantalla_column.dart';
 // import 'package:prueba/screens/pantalla_row.dart';
 
 void main() {
@@ -16,17 +17,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Ejemplo Column',
-      home: PantallaColumn(),
+      title: 'Ejemplo Container',
+      home: PantallaContainer(),
     );
   }
 
-  // @override
-  // Widget build(BuildContext context) {
-  //   return const MaterialApp(
-  //     title: 'Ejemplo Row',
-  //     home: PantallaRow(),
-  //   );
-  // }
 }
 
